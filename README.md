@@ -1,67 +1,151 @@
-## Heart Disease Prediction using Machine Learning
+# Heart Disease Prediction using Machine Learning
 
-According to World Health Organization statistics, cardiovascular disease is the leading cause of death in the world. CVDs were responsible for 32% of all global deaths in 2019, as estimated by the World Health Organization. Heart attacks and strokes were responsible for 85% of these deaths. Low- and middle-income countries account for more than three quarters of all CVD deaths.
+## Overview
 
-We have created a web application and a prediction model based on machine learning using which a patient can fill in basic details like age, gender, Chest Pain Types, Cholesterol Level, etc. Based on these data, the model is able to predict heart disease. We have used various machine learning algorithms like Logistic Regression, Support Vector Machine, Decision Tree, Random Forest, and KNN for prediction.User is also able to print the report for tracking the disease.
+Cardiovascular Disease (CVD) is one of the leading causes of death worldwide. According to the World Health Organization (WHO), CVDs accounted for approximately 32% of global deaths in 2019, with heart attacks and strokes contributing to the majority of these cases.
 
-## Installation of required software and Libraries
-1. Install the Anaconda Python Package
-2. Open Anaconda Prompt and Move to the downloaded project directory (Heart Disease Prediction) using the cd command
+This project is a Machine Learning-based Heart Disease Prediction System developed to predict the likelihood of heart disease based on medical parameters such as age, gender, chest pain type, cholesterol level, and other health-related attributes. The system also provides a web-based interface where users can enter patient details and generate prediction reports.
 
-	Example:
-	>> cd Path_of_Project_Directory
-	
-3. Create the virtual environment using the below command
-	>>conda create -n hdp python==3.11.7
-4. Activate the virtual environment using the command
-	>>conda activate hdp
-5. Now install the required Libraries using the below command
-	>>pip install -r requirements.txt
+---
 
+## Features
 
-## Steps to train the model after Installation of required software and Libraries
-1. Open Anaconda Prompt and Move to the downloaded project directory (Heart Disease Prediction) using the cd command
+- Heart disease prediction using Machine Learning algorithms
+- Web-based Flask application
+- User-friendly prediction interface
+- Patient report generation
+- Data preprocessing and model training
+- Multiple ML algorithm comparison
 
-	Example:
-	>> cd Path_of_Project_Directory
-	
-2. Activate the virtual environment using the command
-	>>conda activate hdp
-	
-	Note: hdp is the environment created at the time of installing the software and Libraries
-	
-3. Next to train the model open the Jupyter Notebook using the below command
-	>>jupyter notebook
-4. Open the Heart-Disease-Prediction.ipynb and run all cells
-5. Once the training is completed the trained model models.pkl will be stored in the current working directory
+---
 
+## Machine Learning Algorithms Used
 
-## Steps to run the Flask App after training the model 
-1. Open Anaconda Prompt and Move to the downloaded project directory (Heart Disease Prediction) using the cd command
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
 
-	Example:
-	>> cd Path_of_Project_Directory
-	
-2. Activate the virtual environment using the command
-	>>conda activate hdp
-	
-	Note: hdp is the environment created at the time of installing the software and Libraries
-	
-3. Run the Flask App using the below command
-	>>python app.py
-	
-	
+---
+
 ## Tech Stack
 
-**Languages:** Python, JavaScript, CSS, HTML  
-
-**Algorithms:** Logistic Regression, SVM, Decision Tree, Random Forest, KNN  
+**Languages:** Python, JavaScript, HTML5, CSS3  
 
 **Framework:** Flask  
 
-**Tools:** VS Code, Jupyter Notebook  
+**Libraries:** NumPy, Pandas, Matplotlib, Scikit-learn  
 
-**Libraries:** NumPy, Pandas, Matplotlib
+**Tools:** VS Code, Jupyter Notebook
+
+---
+
+## Installation
+
+### Step 1: Install Anaconda
+
+Download and install Anaconda Python Distribution.
+
+---
+
+### Step 2: Clone the Repository
+
+```bash
+git clone https://github.com/akhil22201/heart-disease-prediction-system.git
+cd heart-disease-prediction-system
+```
+
+---
+
+### Step 3: Create Virtual Environment
+
+```bash
+conda create -n hdp python==3.11.7
+```
+
+---
+
+### Step 4: Activate Environment
+
+```bash
+conda activate hdp
+```
+
+---
+
+### Step 5: Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Model Training
+
+### Step 1: Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+---
+
+### Step 2: Open Notebook
+
+Run all cells in:
+
+```bash
+Heart-Disease-Prediction.ipynb
+```
+
+---
+
+### Step 3: Model Generation
+
+After training, the trained model file:
+
+```bash
+models.pkl
+```
+
+will be generated in the project directory.
+
+---
+
+## Running the Flask Application
+
+Run the Flask application using:
+
+```bash
+python app.py
+```
+
+After execution, open the local server URL in your browser.
+
+---
+
+## Project Workflow
+
+1. Data Collection  
+2. Data Preprocessing  
+3. Feature Engineering  
+4. Model Training  
+5. Prediction Generation  
+6. Report Generation
+
+---
+
+## Future Improvements
+
+- Improve prediction accuracy
+- Add real-time patient monitoring
+- Deploy application on cloud
+- Add advanced visualization dashboards
+
+---
 
 ## Author
+
 Akhil
