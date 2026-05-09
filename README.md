@@ -53,11 +53,15 @@ We have created a web application and a prediction model based on machine learni
 	
 ## Tech Stack
 
-**Languages:** Python,Javascript,CSS,HTML'\n'
-**Algorithms:** Logistic Regression,SVM,Decision Tree,Random Forest,KNN'\n'
-**Framework:** Flask'\n'
-**Tools:** VSCode,jupyter notebook'\n'
-**Libraries:** NumPy,Pandas,Matplotlib'\n'
+**Languages:** Python, JavaScript, CSS, HTML  
+
+**Algorithms:** Logistic Regression, SVM, Decision Tree, Random Forest, KNN  
+
+**Framework:** Flask  
+
+**Tools:** VS Code, Jupyter Notebook  
+
+**Libraries:** NumPy, Pandas, Matplotlib
 
 ## Author
 Akhil
